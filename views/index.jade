@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Articles
+
+  form(id="add-form" name="add-estimation")
+          div.input
+              span.label Title
+              input(id="title" type="text", name="title")
+          div.input
+              span.label Text
+              textarea(id="text" name="text", cols="40", rows="5")
+
+          div.actions
+              input(id="add-btn" type="button", value="add")
+
+
+    block articles
