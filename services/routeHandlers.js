@@ -53,7 +53,7 @@ exports.getMain = function(req, res, next) {
     Article.find({}, function(err, articles) {
         if (err) throw err;
 
-        res.render('articles', { data: articles });
+        res.render('index', { data: articles });
     });
 };
 

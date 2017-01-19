@@ -10,7 +10,9 @@ $(function() {
                 displayImage: $('#displayImage').val()
             },
             success: function(data){
-                location.reload();
+                //document.write(data);
+                //$("#alrticles-list").html(data);
+                $( data ).replaceAll( "#body-wrapper" );
             }
         });
         return false;
@@ -32,7 +34,9 @@ $(function() {
                 displayImage: displayImage.val()
             },
             success: function(data){
-                location.reload();
+                //document.write(data);
+                //$("#alrticles-list").html(data);
+                $( data ).replaceAll( "#body-wrapper" );
             }
         });
         return false;
@@ -44,7 +48,9 @@ $(function() {
             type: 'DELETE',
             url: '/article/' + self.data('id'),
             success: function(data){
-                location.reload();
+                //document.write(data);
+                //$("#alrticles-list").html(data);
+                $( data ).replaceAll( "#body-wrapper" );
             }
         });
         return false;
