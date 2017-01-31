@@ -7,7 +7,7 @@ Clone the repository:
 git clone git@github.com:Vladiimir/workShop.git
 cd workShop
 npm install
-npm start
+node index.js
 ```
 
-http://localhost:3000
+http://localhost:8888
