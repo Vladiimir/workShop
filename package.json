@@ -1,21 +1,30 @@
 {
-  "name": "workshop",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "name": "Introduction",
+  "version": "0.0.1",
+  "description": "Introduction",
+  "preferGlobal": false,
+  "author": "Raman Rabtsau",
+  "contributors": [
+    {
+      "name": "Raman Rabtsau",
+      "email": "raman_rabtsau@epam.com"
+    }
+  ],
+  "readMeFilename": "README.md",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.1",
+    "grunt-bower-install": "^1.6.0",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-connect": "~0.4.0",
+    "grunt-contrib-jshint": "~0.4.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-open": "~0.2.3"
   },
   "dependencies": {
-    "body-parser": "~1.15.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "express": "~4.14.0",
-    "express-react-views": "^0.10.2",
-    "jade": "~1.11.0",
-    "mongoose": "^4.7.3",
-    "morgan": "~1.7.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "serve-favicon": "~2.3.0"
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.0",
+    "mysql": "^2.13.0"
   }
 }

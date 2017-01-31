@@ -1,0 +1,29 @@
+<div class="cat-form-wrapper">
+    <form  name="catForm" ng-model="cat" ng-submit="submitCatForm(cat)" novalidate submit-on-enter="submitCatForm(cat)">
+
+        <!-- TITLE -->
+        <div class="form-group" ng-class="{ 'has-error' : catForm.title.$invalid && !catForm.title.$pristine }">
+            <label>Title</label>
+            <input my-focus type="text" name="title" class="form-control" ng-model="cat.title" required>
+            <p ng-show="catForm.title.$invalid && catForm.title.$dirty" class="help-block">Article title is required.</p>
+        </div>
+
+        <!-- TEXT -->
+        <div class="form-group" ng-class="{ 'has-error' : catForm.text.$invalid && !catForm.text.$pristine }">
+            <label>Text</label>
+            <input my-focus type="text" name="text" class="form-control" ng-model="cat.text" required>
+            <p ng-show="catForm.text.$invalid && catForm.text.$dirty" class="help-block">Article text is required.</p>
+        </div>
+
+        <!-- URL -->
+        <div class="form-group" ng-class="{ 'has-error' : catForm.image.$invalid && !catForm.image.$pristine }">
+            <label>Image URL</label>
+            <input type="url" name="image" class="form-control" ng-model="cat.image" >
+            <p ng-show="catForm.image.$error.image && catForm.image.$dirty" class="help-block">Enter a valid URL.</p>
+        </div>
+
+        <button type="submit" class="btn btn-primary" ng-disabled="catForm.$invalid">Submit</button>
+        <button type="button" class="btn btn-primary" ng-click="clearCatForm(cat)">Cancel</button>
+    </form>
+    <img ng-show="cat.image" ng-src="{{cat.image}}" >
+</div>

@@ -1,0 +1,43 @@
+.cat-list {
+    position: relative;
+}
+.cat-list li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.cat-list li > .btn {
+    width: 150px;
+}
+.cat-list li > .btn.btn-danger {
+    width: 70px;
+}
+.info-area {
+  position: absolute;
+  left: 300px;
+  top: -10px;
+  width: 500px;
+}
+span.active {
+  color: red;
+}
+.current-user h3 {
+  margin: 9px 0;
+}
+/*span.checked:after {*/
+    /*content: 'v';*/
+    /*color: green;*/
+    /*padding-left: 20px;*/
+/*}*/
+.well {
+    margin: 10px;
+}
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+}
+form {
+    padding-bottom: 20px;
+}
+.bg-warning {
+    padding: 20px;
+}

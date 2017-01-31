@@ -1,0 +1,47 @@
+{
+  "name": "angular-cookies",
+  "version": "1.2.0",
+  "description": "AngularJS Cookie Module",
+  "main": "src/angular-cookies.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petermelias/angular-cookies-npm"
+  },
+  "keywords": [
+    "angularjs",
+    "angular",
+    "cookies"
+  ],
+  "author": {
+    "name": "Google, Inc."
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermelias/angular-cookies-npm/issues"
+  },
+  "homepage": "https://github.com/petermelias/angular-cookies-npm",
+  "gitHead": "56b049a71245f4e6fa6ec0314afdf21cd3c85deb",
+  "_id": "angular-cookies@1.2.0",
+  "_shasum": "78fe064f23c74abdeb6e597e65f38801d30bbccf",
+  "_from": "angular-cookies@1.2.0",
+  "_npmVersion": "1.4.14",
+  "_npmUser": {
+    "name": "petermelias",
+    "email": "petermelias@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "petermelias",
+      "email": "petermelias@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "78fe064f23c74abdeb6e597e65f38801d30bbccf",
+    "tarball": "http://registry.npmjs.org/angular-cookies/-/angular-cookies-1.2.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/angular-cookies/-/angular-cookies-1.2.0.tgz"
+}

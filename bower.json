@@ -1,0 +1,9 @@
+{
+	"name":"Introduction",
+	"version":"0.0.1",
+	"private":true,
+	"dependencies":{
+      "jquery": "~1.9.1",
+      "angular": "1.2.0-rc.2"
+    }
+}

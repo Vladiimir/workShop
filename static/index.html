@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="catClickerApp">
+<head>
+	<title>Articles</title>
+    <link rel="stylesheet" href="js/lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+	<body ng-controller="appController">
+        <div class="well row">
+            <ul class="main-nav col-md-9">
+                <li>
+                    <a ui-sref-active="active" class="btn btn-default active" role="button" ui-sref="index">Articles</a>
+                </li>
+                <li>
+                    <a ui-sref-active="active" class="btn btn-default" role="button" ui-sref="addcat">Add Article</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div ui-view class="container"></div>
+
+        <script type="text/javascript" src="js/lib/angular/angular.js"></script>
+        <script type="text/javascript" src="js/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="js/lib/angular-cookies/src/angular-cookies.js"></script>
+        <script type="text/javascript" src="js/lib/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/com/app.js"></script>
+        <script type="text/javascript" src="js/com/router.js"></script>
+        <script type="text/javascript" src="js/com/appController.js"></script>
+        <script type="text/javascript" src="js/com/commonDirectives.js"></script>
+        <script type="text/javascript" src="js/com/httpService.js"></script>
+        <script type="text/javascript" src="sections/addcat/addCatController.js"></script>
+        <script type="text/javascript" src="sections/cats/catsController.js"></script>
+        <script type="text/javascript" src="sections/cats/catsService.js"></script>
+	</body>
+</html>
